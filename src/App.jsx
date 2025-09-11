@@ -15,6 +15,18 @@ function App() {
 			<div className="card">
 				<button onClick={() => {}}>Start the demo</button>
 			</div>
+			<div className="border border-white">
+				<h2>RTS Simulation Area</h2>
+				<label>
+					Valid command inputs will show here:
+					<input
+						type="text"
+						name="commandInput"
+						className="border border-gray500 ml-1"
+					/>
+					<div className="my-4 mx-auto w-80 h-56 border border-blue-500" />
+				</label>
+			</div>
 			Copyright 2025 J.D. Sandifer. See LICENSE for more info.
 		</>
 	)
